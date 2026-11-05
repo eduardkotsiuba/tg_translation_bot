@@ -11,7 +11,7 @@ client = AsyncOpenAI()
 
 @router.message(CommandStart())
 async def cmd_start(message: Message):
-    await message.answer("Please select the first language", reply_markup=kb.main)
+    await message.answer("Hi! 👋 I’m your personal translation bot. To get started, please choose the language of the text you want to translate", reply_markup=kb.main)
 
 
 @router.callback_query(F.data.in_({"english", "german", "czech", "ukrainian","french", "spanish", "russian", "dutch"}))
