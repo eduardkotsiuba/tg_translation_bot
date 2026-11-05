@@ -62,3 +62,7 @@ Users can choose a source and target language, swap the selected languages, or s
 ## Security
 
 The `.env` file contains private credentials and must not be uploaded to GitHub. Never share your bot token or API key publicly.
+
+## Demo
+
+[Watch the project demo on YouTube](https://youtu.be/IxyJj462L0o)
